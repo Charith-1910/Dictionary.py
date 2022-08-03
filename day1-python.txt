@@ -1,0 +1,179 @@
+Introduction to python  :-
+
+1. Python is a general puropse object orentied and high level programming language.
+2. It can be used in web applicatitons , Enterprise applications and 3D.
+3. Current version is 3.10.1
+4. python file format is .py
+5. https://www.python.org/downloads
+6. For downloading libraries and depositries
+   https://www.python.pypi
+
+Features of python :-
+
+1. Easy to understand and learn.
+2. Python is called as interpreted language.
+3. Object orentied were we use all oops concept
+4. Open source language - it is open to all and can be downloaded and anyone can change the code.
+5. Supports wide range of libraries and frame works.
+6. GUI - Gra
+
+various areas were pyhton is used :-
+
+1. AI for Data Science            2. Data mining
+3. Machine learning               4. software development
+5. mobile applications            6. 3D applications
+7. speech recoginzation           8. image processing applications
+
+Python basic syntax :-
+
+1. indentation is to define block of a code and it is nothing but white spaces
+
+Applications of python :-
+
+1. YouTube                   2. Netflix
+3. Facebook and instagram    4. Linkedin
+5. quora                     6. DropBox
+
+Popular frame works in python :-
+
+1. Web development( Sever site ) - Django , flask , pyramind , cherrypy
+2. GUI based applications - TK , PYGTR , PYQL , PYJS
+3. Machine learning - Tensorflow , Pytorch , Matplotlib , Numpy , Pandas
+
+Limitations in python :-
+
+1. Not good for gaming
+2. there will be more libraries and no deicated support for libraries
+
+Important library functions in pyhton :-
+
+1. Date and Time    2. OS
+3. CS               4. SQL Lime 3
+5. Json             6. request for library function - Django and Flask
+
+Data types in python :-
+
+1. Int         2. Float
+3. Complex     4. boolean
+5. string      6. list 
+7. tuple       8. set
+9. dictionary
+
+Important basic functions :-
+
+1. len()   - returns length of the collection
+2. type()  - to know the data type of a variable
+3. dir()   - to know the functionalites of induvizual data types
+4. print() - used for diplay a msg 
+5. help()  - to know the description and to reslove the problem
+6. input() - to read input from keyboard or a input device
+
+Comment lines in python :-
+
+1.   #  - used for single line command
+2. text - multi line command or document string
+
+Python Data Structures :-
+
+1. Primitive  
+            - integer , float , boolean , string
+2. Non Primitive
+        2.1. built in 
+            - tuple , dictionary , set
+        2.2. user defined
+            - stack , queue , linked list and tree
+
+List in Python :-
+
+1. python list holds the ordered collection of items
+2. python list is mutable ( modifications can be done)
+3. The items of the are enclosed within the square brackets seperated( [] ) by coma( , )
+Examples - age=[10,13,23,45]
+           print(age)
+         - student=["name" , "age" , "branch" , "regno"]
+multplying list - mylist=[1,2,3,4,5]
+                  result = 1
+                  for x in mylist:
+                        result = result * x
+                  print(result)
+
+Tuples in python :-
+
+1. python tuples are used to store sequence of immutable python objects
+2. The items of the tuples are enclosed with brackets () seperated by coma ( , )
+3. tuples are immutable ( modifications can not be done )
+
+Dictionary :-
+
+1. It stores the data in the key vale pair format
+2. In dictionary each key is sepreated from its value by a colon (:)
+3. Keys must be unique and value can be integer, float or character
+4. Dictionaries are mutable ( modifications can be done)
+5. The empty curly braces are used to create empty dictionary 
+
+   Dept = {"cse":02 , "ece":03 , "ecm":"sample"}
+   print(Dept)
+   update("cse") = "sample"
+   print(Dept)
+
+
+Sets in Python :-
+
+1. a pyhton set is a collection of unordered elements
+2. the elements in the set can not be dupicate
+3. the elements are immutable (modifications can not be done)
+    Month = { "jan" , "feb" }
+    print(Month)
+
+Strings in python :-
+
+1. python string is a sequence of characters
+2. it is a collection of the characters surrounded by single,double or triple cotations
+3. a single character written as 'A' is treated as string as length 1
+4. strings are immutable(modifications can not be done)
+
+Classes in python :-
+
+1. name spaces
+           1.1. built in name spaces
+           1.2. global name spaces
+           1.3. local name spaces
+2. built in name attributes
+           2.1. init - it is called constructor and is a reserved method in python class
+                     - this method is called when a object is created from a class and it allows the class to initilise the attributes of a class
+           2.2. doc  - class documentation string
+           2.3. dict - dictionary contains class name spaces
+           2.4. self key word - used to represent the instance of a class
+                              - self keyword can acces the attributes and methods of a class
+3. base overloading methods
+
+
+Inheritance :-
+
+1. Single
+2. Multiple
+3. Multi level
+4. Hybrid
+5. Hierarical
+
+
+1. Single Inheritance ---- The communication will be in b/w parent and child.
+2. Multiple Inheritance -- The communication will be in b/w one parent and more than one children.
+3. Multi level ----------- More than one parent and more than one children.
+4. Hybrid ---------------- Is a combination of single and multiple inheritance.
+5. Hierarical ------------ Is a tree like structure which comsists of more than one level of parent and child.
+
+
+Super :- 
+
+1. It is a built-in function
+2. Super function implements code reusability
+3. The methods are declared in the parent inherited (properties and methods) by the child class
+4. We can access the methods from the sub class to a super class and it is a part of inheritance
+
+
+Random function in python :-
+
+
+
+
